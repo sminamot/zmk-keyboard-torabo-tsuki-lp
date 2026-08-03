@@ -5,12 +5,6 @@
 
 / {
     input_processors {
-        torabo_auto_mouse_layer: torabo_auto_mouse_layer {
-            compatible = "zmk,input-processor-temp-layer";
-            #input-processor-cells = <2>;
-            excluded-positions = <19 20 21>;
-        };
-
         torabo_vertical_scroll_mapper: torabo_vertical_scroll_mapper {
             compatible = "zmk,input-processor-code-mapper";
             #input-processor-cells = <0>;
