@@ -14,7 +14,10 @@
 
     scroller {
         layers = <2>;
-        input-processors = <&torabo_vertical_scroll_mapper>;
+        input-processors = <
+            &torabo_vertical_scroll_mapper
+            &zip_scroll_scaler 1 3
+        >;
     };
 };
 
